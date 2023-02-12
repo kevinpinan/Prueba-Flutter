@@ -1,6 +1,4 @@
-# Crud con Firebase
-
-A new Flutter project.
+# Prueba de Flutter con Firebase
 
 ## Ingrantes: 
 - Dastin Chávez
