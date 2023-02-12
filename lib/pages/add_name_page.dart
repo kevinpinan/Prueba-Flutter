@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:crud_firebase/services/firebase_service.dart';
 
-
 class AddNamePage extends StatefulWidget {
   const AddNamePage({super.key});
   @override
@@ -9,12 +8,11 @@ class AddNamePage extends StatefulWidget {
 }
 
 class _AddNamePageState extends State<AddNamePage> {
-  TextEditingController nameController = TextEditingController(text: "");
+  TextEditingController nameController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
           title: const Text('Añadir mascota'),
           backgroundColor: Color.fromRGBO(31, 113, 221, 0.604),
@@ -25,15 +23,14 @@ class _AddNamePageState extends State<AddNamePage> {
                   Icons.save,
                   color: Color.fromARGB(255, 255, 255, 255),
                 ))
-                
           ]),
-  
       body: Padding(
         padding: const EdgeInsets.all(100),
         child: Column(
           children: [
             Text("Añadir una nueva mascota al registro"),
             TextField(
+              controller: nameController,
               decoration: const InputDecoration(
                 hintText: 'Ingrese un nueva mascota  \n',
               ),
@@ -51,7 +48,7 @@ class _AddNamePageState extends State<AddNamePage> {
             )
           ],
         ),
-      ),
-    );
-  }
+      ),
+    );
+  }
 }
