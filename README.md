@@ -1,6 +1,6 @@
 # Prueba de Flutter con Firebase
 
-## Ingrantes: 
+## Integrantes: 
 - Dastin Chávez
 - Steven Guañuna
 - Kevin Pinanjota
