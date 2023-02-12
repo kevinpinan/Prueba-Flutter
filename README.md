@@ -1,8 +1,12 @@
-# crud_firebase
+# Crud con Firebase
 
 A new Flutter project.
 
-## Getting Started
+## Ingrantes: 
+- Dastin Chávez
+- Steven Guañuna
+- Kevin Pinanjota
+- Miguel Muzo
 
 This project is a starting point for a Flutter application.
 
