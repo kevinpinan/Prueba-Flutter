@@ -6,7 +6,7 @@
 - Kevin Pinanjota
 - Miguel Muzo
 
-This project is a starting point for a Flutter application.
+En el presente proyecto se utilizó las herramientas de Flutter y Firebase, con las que se logra almacenar información proporcionada por los usuarios, en este caso cliente que quiera registrar las mascotas que desee, principal  
 
 A few resources to get you started if this is your first Flutter project:
 
